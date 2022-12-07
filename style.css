@@ -1,0 +1,101 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+main {
+  background-image: url(imgs/grupo.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  box-sizing: border-box;
+  position: relative;
+  height: 100vh;
+}
+
+.column2 {
+  position: absolute;
+  left: 44%;
+  top: 35vh;
+  font-size: 1.3vw;
+  color: white;
+}
+
+#address {
+  margin-top: 1.5vh;
+  width: 78%;
+}
+
+#work {
+  width: 50%;
+}
+
+div.column{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5vh;
+  align-items: flex-start;
+  padding-left: 4%;
+  padding-top: 9%;
+  width: 30%;
+}
+
+#qrcode{
+  padding-left: 36%;
+  padding-top: 3%;
+  height: 35vh;
+}
+
+.transform {
+  padding-left: 47%;
+  padding-top: 10%;
+}
+
+#role {
+  line-height: 25px;
+}
+
+#name {
+  color: #F08000;
+  font-size: 3vw;
+  font-weight: 900;
+}
+
+#role {
+  font-size: 1.5vw;
+}
+
+#phone {
+  font-size: 2vw;
+}
+
+#email img {
+  display: flex;
+  height: 3vh;
+}
+
+#email {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 1.32vw;
+  width: fit-content;
+}  
+
+.options {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  position: absolute;
+  top: 80%;
+}
+
+@media only screen and (min-width: 1860px) {
+  body {
+    background-color: cyan;
+  }
+  .column2 {
+    top: 31vh;
+  }
+}
